@@ -1,0 +1,157 @@
+.carousel-item{
+	position:relative;
+	overflow:hidden;
+}
+.slide{
+	
+	position:relative;
+	overflow:hidden;
+	height: 511px;	
+}
+span {
+    display: block;
+}
+p.copyright {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.about-company {
+    position: relative;
+    height: 500px;
+    background-repeat: no-repeat;
+}
+
+.servicetitle {
+    text-align: center;
+    margin-bottom: 34px;
+    color: #0d6efd;  
+}
+
+.service-block-two {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 30px;
+    
+}
+.serviceimgbox {
+    width: 414px;
+}
+.serviceimgbox img {
+    width: 414px;
+    height: 317px;
+}
+
+.teamtitle {
+    text-align: center;
+    margin-bottom: 34px;
+    color: #0d6efd;  
+}
+
+.team-block-two {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 30px;
+    
+}
+.teamimgbox {
+    width: 414px;
+}
+.teamimgbox img {
+    width: 414px;
+    height: 317px;
+}
+
+
+.blogtitle {
+    text-align: center;
+    margin-bottom: 34px;
+    color: #0d6efd;  
+}
+
+.blog-block-two {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 30px;
+    
+}
+.blogimgbox {
+    width: 414px;
+}
+.blogimgbox img {
+    width: 414px;
+    height: 317px;
+}
+section.teaminfo {
+    margin-bottom: 50px;
+}
+.sicon {
+    margin-top: 10px;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.teampara
+{
+	font-size: 17px;
+}
+h3.teamheader1 {
+    color: blue;
+    font-weight: bold;
+}
+span.fa.fa-twitter {
+    margin-left: 10px;
+}
+.teamheader2 {
+    color: #000000;
+    font-weight: 500;
+}
+span.fa.fa-twitter {
+    color: aqua;
+}
+p.recentpost {
+    padding: 0;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+}
+.col-md-9 {
+    display: block;
+    overflow: hidden;
+}
+.col-md-3 {
+    display: block;
+    overflow: hidden;
+}
+.col-md-3 img {
+    width: 100%;
+}
+.service-block-two.col-lg-4 {
+    overflow: hidden;
+    display: block;
+}
+.contacttitle {
+    text-align: center;
+    margin-bottom: 34px;
+    color: #0d6efd;  
+}
+.contactintro {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.col-md-4 img {
+    width: 100%;
+    /* overflow: hidden; */
+}
+.col-md-4  {
+    overflow: hidden;
+    display: block;
+}
+.footermid {
+    text-align: center;
+}
+.footerright {
+    text-align: center;
+}
+ul.navbar-nav.me-auto.mb-2.mb-md-0 {
+    margin-left: 60px;
+}

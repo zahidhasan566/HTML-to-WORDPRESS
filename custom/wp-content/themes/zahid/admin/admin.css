@@ -1,0 +1,228 @@
+.box {
+    display: block;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+    width: 90%;
+	background:none repeat scroll 0 0 #FFFFFF;
+}
+.box:after{ content:""; clear:both; display:inline-block;}
+.box > .heading {
+   background-color: #DDDDDD; 
+   background-repeat: repeat-x; 
+   background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#DDDDDD), to(#EDEDED)); 
+   background: -webkit-linear-gradient(top, #EDEDED, #DDDDDD);
+   background: -moz-linear-gradient(top, #EDEDED, #DDDDDD);
+   background: -ms-linear-gradient(top, #EDEDED, #DDDDDD);
+   background: -o-linear-gradient(top, #EDEDED, #DDDDDD);
+   border: 1px solid #DBDBDB;
+   border-radius: 7px 7px 0 0;
+   height: 38px;
+   padding-left: 7px;
+   padding-right: 7px;
+}
+.box > .heading h1 {
+    color: #333333;
+    float: left;
+    font-size: 16px;
+    margin: 0;
+    padding: 11px 0 0;
+}
+
+.box > .content {
+    border-bottom: 1px solid #CCCCCC;
+    border-left: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+    min-height: 300px;
+    overflow: auto;
+    padding: 25px 10px 10px;
+}
+
+.box > .heading .buttons {
+    float: right;
+    margin-right: 5px;
+    padding-top: 7px;
+}
+
+.box > .heading .buttons .button {
+    margin-left: 5px;
+}
+
+.box a.button{
+       background: none repeat scroll 0 0 #F7F7F7;
+       border-color: #CCCCCC;
+       box-shadow: 0 1px 0 #FFFFFF inset, 0 1px 0 rgba(0, 0, 0, 0.08);
+       color: #555555;
+       vertical-align: top;
+	   -moz-box-sizing: border-box;
+       border-radius: 3px;
+       border-style: solid;
+       border-width: 1px;
+       cursor: pointer;
+       display: inline-block;
+       font-size: 13px;
+       height: 28px;
+       line-height: 26px;
+       margin: 0;
+       padding: 0 10px 1px;
+       text-decoration: none;
+       white-space: nowrap;
+}
+
+.htabs {
+    border-bottom: 1px solid #DDDDDD;
+    height: 30px;
+    line-height: 16px;
+    margin-bottom: 15px;
+    padding: 0 0 0 10px;
+}
+
+.htabs a {
+    background-color: #DDDDDD; 
+    background-repeat: repeat-x; 
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#DDDDDD), to(#EDEDED)); 
+    background: -webkit-linear-gradient(top, #EDEDED, #DDDDDD);
+    background: -moz-linear-gradient(top, #EDEDED, #DDDDDD);
+    background: -ms-linear-gradient(top, #EDEDED, #DDDDDD);
+    background: -o-linear-gradient(top, #EDEDED, #DDDDDD);
+    border-left: 1px solid #DDDDDD;
+    border-right: 1px solid #DDDDDD;
+    border-top: 1px solid #DDDDDD;
+    color: #000000;
+    display: none;
+    float: left;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin-right: 2px;
+    padding: 7px 15px 6px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.htabs a.selected {
+    background: none repeat scroll 0 0 #FFFFFF;
+    padding-bottom: 7px;
+    outline: none;
+}
+
+.vtabs {
+    border-right: 1px solid #DDDDDD;
+    display: block;
+    float: left;
+    min-height: 300px;
+    padding: 10px 0;
+    width: 190px;
+}
+.vtabs a, .vtabs span {
+    background-color: #CCCCCC; 
+    background-repeat: repeat-x; 
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#CCCCCC), to(#FFFFFF)); 
+    background: -webkit-linear-gradient(top, #FFFFFF, #CCCCCC);
+    background: -moz-linear-gradient(top, #FFFFFF, #CCCCCC);
+    background: -ms-linear-gradient(top, #FFFFFF, #CCCCCC);
+    background: -o-linear-gradient(top, #FFFFFF, #CCCCCC);
+    border-bottom: 1px solid #CCCCCC;
+    border-left: 1px solid #CCCCCC;
+    border-top: 1px solid #CCCCCC;
+    clear: both;
+    color: #000000;
+    display: block;
+    float: left;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding: 6px 14px 7px 15px;
+    text-align: right;
+    text-decoration: none;
+    width: 160px;
+}
+.vtabs a.selected {
+    background: none repeat scroll 0 0 #FFFFFF; 
+    padding-right: 15px;
+	outline: none;
+}
+
+.vtabs-content {
+    margin-left: 205px;
+}
+
+table.form {
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+table.form > tbody > tr > td:first-child {
+    width: 200px;
+}
+table.form > tbody > tr > td:first-child span{
+  font-size:11px;
+}
+table.form > tbody > tr > td {
+    border-bottom: 1px dotted #CCCCCC;
+    color: #000000;
+    padding: 10px;
+}
+
+.list {
+    border-collapse: collapse;
+    border-left: 1px solid #DDDDDD;
+    border-top: 1px solid #DDDDDD;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.list thead td a, .list thead td {
+    color: #222222;
+    font-size: 14px;
+    text-decoration: none;
+	background-color: #EFEFEF;
+	padding:7px;
+}
+
+.list tbody td {
+    background: none repeat scroll 0 0 #FFFFFF;
+    padding:7px;
+    vertical-align: middle;
+}
+.list td {
+    border-bottom: 1px solid #DDDDDD;
+    border-right: 1px solid #DDDDDD;
+}
+.list tfoot td { padding:7px;}
+
+.box input[type="text"], input[type="password"] {
+    padding: 5px 2px;
+}
+.box textarea {
+    padding: 2px;
+}
+.box select {
+    padding: 5px 1px;
+}
+.box input, .box select, .box textarea, .box option, .box optgroup {
+    color: #000000;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+}
+
+
+
+#message {
+    margin: 20px auto 10px;
+    width: 90%;
+}
+
+.box .file-wrapper {
+    border: 1px solid #EEEEEE;
+    display: inline-block;
+    padding: 10px;
+}	
+.box .file-wrapper img{
+    max-width:130px;
+}	
+.box a.file-browser, .box a.file-remove{ text-decoration:underline; cursor:pointer;}
+
